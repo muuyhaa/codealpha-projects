@@ -1,37 +1,27 @@
 Here’s a quick walkthrough of the steps I followed:
 
-
-
 1. Modify the "suricata.yaml" configuration file as needed.
-
 
 
 2.Look for available rules set and choose the one that suits our needs.
 
 
-
 3.Choose a specific rules set : "et/open" in this case.
-
 
 
 4. Download a fresh copy of rules sets updates.
 
 
-
 5. Enable Suricata at Boot: Ensured Suricata starts automatically after a reboot .
-
 
 
 6.Start Suricata: Initiated Suricata immediately to start monitoring network traffic.
 
 
-
 7.Testing the IDS : Used the website "https://lnkd.in/eURfXqse" to generate traffic that matches known malicious patterns. This site is designed to trigger alerts in intrusion detection systems by mimicking hacker activities such as executing the id command to check current privileges after a successful exploitation. 
-
 
 
 8. Visualize captured traffic : Checked the human-readable "fast.log" file to visualize the captured suspicious activity
 
 
-
-By following these steps, I was able to see Suricata in action, capturing and logging potentially malicious traffic.
+By following these steps, you will be able to see Suricata in action, capturing and logging potentially malicious traffic.
