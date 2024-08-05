@@ -1,5 +1,6 @@
 Using Bandit to Analyze Python Code for Security Vulnerabilities
 Follow these steps to install Bandit and generate a JSON report of any security vulnerabilities found in your Python code.
+PS : You can download the zip file to see the walkthrough of the following steps:
 
 Step 1: Install Bandit
 First, ensure you have Bandit installed. You can install it using pip:
